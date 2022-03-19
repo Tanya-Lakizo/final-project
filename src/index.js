@@ -1,0 +1,34 @@
+import tabs from './js/modules/tabs.js';
+import modal from './js/modules/modal.js';
+import timer from './js/modules/timer.js';
+import cards from './js/modules/cards.js';
+import calc from './js/modules/calc.js';
+import portfolio from './js/modules/portfolio.js';
+import forms from './js/modules/forms.js';
+import slider from './js/modules/slider.js';
+import { openModal } from './js/modules/modal.js';
+
+import css from "./css/style.css";
+import media from "./css/media.css";
+import menu from "./css/mmenu-light.css";
+
+import menujs from "./js/mmenu-light.js";
+import menujspoly from "./js/mmenu-light.polyfills.js"
+
+window.addEventListener('DOMContentLoaded', () => {
+    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 3000);
+    
+    modal('[data-modal]', '.modal', modalTimerId);
+    forms(modalTimerId);
+
+    // Home page scripts only
+    if (window.location.pathname === '/') {
+        tabs();
+        timer();
+        calc();
+        cards();
+        portfolio();
+        slider();    
+    }
+            
+});

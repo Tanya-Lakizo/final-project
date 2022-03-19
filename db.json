@@ -1,0 +1,72 @@
+{
+  "card": [
+    {
+      "img": "assets/images/tips_and_tricks_img1.png",
+      "altimg": "Home Burn Plan",
+      "title": "Home Burn Plan",
+      "descr": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut quos officiis optio harum dignissimos voluptatem accusantium. Corporis, debitis nulla provident neque voluptas aliquid ad tenetur animi.",
+      "price": 19.99
+    },
+    {
+      "img": "assets/images/tips_and_tricks_img2.png",
+      "altimg": "Shedded Meal Plan",
+      "title": "Shedded Meal Plan",
+      "descr": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut quos officiis optio harum dignissimos voluptatem accusantium. Corporis, debitis nulla provident neque voluptas aliquid ad tenetur animi.",
+      "price": 29.99
+    },
+    {
+      "img": "assets/images/tips_and_tricks_img3.png",
+      "altimg": "High Intensity Training",
+      "title": "High Intensity Training",
+      "descr": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut quos officiis optio harum dignissimos voluptatem accusantium. Corporis, debitis nulla provident neque voluptas aliquid ad tenetur animi.",
+      "price": 89.99
+    }
+  ],
+  "requests": [
+    {
+      "name": "wefwef",
+      "phone": "wefewgewgweg",
+      "id": 1
+    },
+    {
+      "name": "wvevwevw",
+      "phone": "evewvew",
+      "id": 2
+    },
+    {
+      "name": "wefwef",
+      "phone": "evwrvrd",
+      "id": 3
+    },
+    {
+      "name": "vwev",
+      "phone": "bwebe",
+      "id": 4
+    },
+    {
+      "name": "webewb",
+      "phone": "bwebweb",
+      "id": 5
+    },
+    {
+      "name": "drbweb",
+      "phone": "346436436",
+      "id": 6
+    },
+    {
+      "name": "34t43",
+      "phone": "34y43y",
+      "id": 7
+    },
+    {
+      "name": "wfe",
+      "phone": "wfef",
+      "id": 8
+    },
+    {
+      "name": "wfe",
+      "phone": "fwe",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+@media (max-width: 1024px) {
+
+    .order__form {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .order__input {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+    .offer {
+        padding-bottom: 160px;
+    }
+
+    .offer .container {
+        flex-direction: column;
+    }
+
+    .offer__advantages {
+        margin-right: 10px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .offer__advantages h2:first-child {
+        margin-top: 20px;
+    }
+
+    .offer__slider {
+        margin: 0 auto;
+    }
+
+    .promotion__timer .timer__block {
+        margin-right: 10px;
+    }
+
+    .promotion__text {
+        width: 40%;
+
+    }
+
+    .header__links, 
+    .button-call {
+        display: none;
+    }
+
+    .header a span {
+        background: #081158;
+        display: block;
+        height: 2px;
+        margin: 6px 0;
+    }
+    
+    .header a.burger {
+        display: block;
+        width: 28px;
+        height: 18px;
+        margin: 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px;
+    }
+    
+    .header a.burger:before,
+    .header a.burger:after {
+        content: '';
+        display: block;
+        background: #081158;
+        height: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .preview .container {
+        width: 100%;
+    }
+
+    .proposed_perks .container .proposed_perks__head {
+        width: 40%;
+    }
+
+    .proposed_perks .container .proposed_perks__head h2 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .tabcontainer {
+        flex-direction: column-reverse;
+    }
+    
+    .tabcontent {
+        width: 100%;
+    } 
+
+    .tabheader {
+        width: calc(100% - 60px);
+    }
+
+    .calculating .container {
+        width: 100%;
+    }
+
+    .who_can_benefit .container {
+        flex-direction: column;
+    }
+
+    .who_can_benefit .container .who_can_benefit__left_block {
+        text-align: center;
+    }
+
+    .tips_and_tricks .tips_and_tricks__head {
+        margin-left: 10px;
+    }
+
+    .portfolio {
+        border: none;
+    }
+
+    .promotion {
+        padding-bottom: 50px;
+    }
+
+    .promotion .container {
+        flex-direction: column;
+    }
+
+    .promotion .bgc_y {
+        width: 100%;
+        height: 400px;
+    }
+
+    .promotion__text {
+        width: 100%;
+    }
+
+    .promotion__timer {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .home_workouts__field .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .free_home_workouts__item {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .free_home_workouts__item:last-child {
+        margin-right: 30px;
+    }
+
+    .free_home_workouts__item img {
+        height: 400px;
+    }
+
+    .header {
+        padding: 0 10px;
+    }
+
+    .offer__slider {
+        width: 100%;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .sandra_info .sandra_info__left_block {
+        justify-content: start;
+    }
+
+    .sandra_info .sandra_info__right_block {
+        width: 100%;
+    }
+
+    .order__form {
+        padding: 0 40px;
+    }
+
+    .offer__action .button {
+        margin-top: 10px;
+    }
+
+    .offer__advantages {
+        margin-top: 0;
+    }
+
+    .proposed_perks .container .proposed_perks__head {
+        width: 80%;
+    }
+
+    .proposed_perks .container .proposed_perks__head h2 {
+        font-size: 20px;
+        line-height: 1.4em;
+    }
+
+    .header .header__right-block {
+        min-width: 320px;
+    }
+
+    .sandra_info .container {
+        flex-direction: column;
+    }
+
+    .sandra_info .sandra_info__right_block span {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sandra_info .sandra_info__right_block h2 {
+        font-size: 22px;
+    }
+
+    .sandra_info .sandra_info__left_block img {
+        width: 100%;
+    }
+
+    .proposed_perks .container .proposed_perks__adv_items .proposed_perks__adv_item h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .order__input {
+        width: 100%;
+    }
+
+    .offer__slider {
+        width: 100%;
+    }
+
+    .offer__slider-counter {
+        width: 100%;
+    }
+
+    .proposed_perks .container {
+        width: 100%;
+    }
+
+    .offer__slider-counter {
+        justify-content: end;
+    }
+
+    .tabcontent__descr {
+        padding: 0;
+        position: relative;
+        color: black;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tabcontent__descr h3,
+    .tabcontent__descr p {
+        color: black;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .tabcontent__descr .add_inf {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .tabcontent img {
+        height: auto;
+    }
+
+    .calculating__total {
+        flex-direction: column;
+    }
+
+    .calculating__choose-item {
+        width: 25%;
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    .portfolio__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio__list li {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
+    .calculating .title {
+        font-size: 22px;
+        margin-left: 10px;
+        line-height: 1.4em;
+    }
+
+    .calculating__field {
+        margin-top: 20px;
+    }
+
+    .calculating__subtitle {
+        font-weight: 100;
+    }
+
+    .portfolio__list li {
+        width: 100%;
+    }
+
+    .who_can_benefit .container .who_can_benefit__left_block h2 {
+        font-size: 22px;
+    }
+
+    .tips_and_tricks {
+        margin-bottom: 60px;
+    }
+
+    .tips_and_tricks .tips_and_tricks__head h2 {
+        font-size: 20px;
+    }
+
+    .tips_and_tricks .tips_and_tricks__head h2,
+    .tips_and_tricks .tips_and_tricks__head p {
+        text-align: center;
+    }
+
+    .free_home_workouts__item {
+        margin-right: 0 !important; 
+    }
+
+    .offer {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .offer__slide {
+        height: 180px;
+    }
+
+    .offer__slide img {
+        object-fit: cover;
+        width: 320px;
+        height: 180px;
+    }
+
+    .offer .bgc_y {
+        top: -18px;
+    }
+
+    .offer__text {
+        width: 100%;
+    }
+
+    .offer .container h2 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .sweat_gain_do_img {
+        height: auto;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .modal__dialog {
+        max-width: 200px;
+        margin: 40px 18%;
+    }
+
+    .modal__input {
+        width: 90%;
+        padding: 0;
+    }
+
+    .modal .button {
+        width: 85%;
+    }
+
+    .modal__title {
+        font-size: 18px;
+    }
+
+    .promotion {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .promotion__timer .timer {
+        margin-left: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .footer .footer_first_block .footer_colomns {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .footer_first_block .footer_colomns .footer_column {
+        margin-bottom: 30px;
+    }
+
+    .img_block {
+        height: 170px;
+    }
+}
+    @media (max-width: 375px) {
+
+        .active_links .container {
+            flex-direction: column;
+        }
+
+        .active_links .container a {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .proposed_perks .container .proposed_perks__head h2 {
+            font-size: 22px;
+        }
+
+        .promotion {
+            padding: 10px 0 40px 0;
+        }
+
+        .promotion__text {
+            margin-bottom: 15px;
+        }
+
+        .promotion__timer {
+            margin-top: 20px;
+        }
+
+        .promotion__timer .title {
+            font-size: 22px;
+        }
+
+        .promotion__timer .timer {
+            margin-top: 20px;
+        }
+
+        .promotion__timer .timer__block {
+            height: 90px;
+        }
+
+        .promotion__timer .timer__block span {
+            font-size: 30px;
+        }
+
+        .modal__dialog {
+            margin: 40px 13%;
+        }
+
+    }
+
+    @media (max-width: 320px) {
+        .proposed_perks .container .proposed_perks__adv_items .proposed_perks__adv_item h4 {
+            font-size: 16px;
+        }
+
+        .proposed_perks .container .proposed_perks__adv_items .proposed_perks__adv_item p {
+            width: 310px;
+            font-size: 14px;
+            padding-bottom: 0;
+        }
+
+        .order .container {
+            border: none;
+        }
+
+        .order .title {
+            font-size: 16px;
+        }
+
+        .offer__descr,
+        .offer__advantages-text {
+            font-size: 16px;
+        }
+
+        .promotion__text .title {
+            font-size: 21px;
+        }
+
+        .promotion__descr {
+            margin-top: 5px;
+        }
+
+        .promotion__timer .title {
+            margin-top: 10px;
+        }
+
+        .promotion__timer .timer__block {
+            font-size: 14px;
+        }
+
+        .modal__dialog {
+            margin: 40px 6%;
+        }
+    }
+
