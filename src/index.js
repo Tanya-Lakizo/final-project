@@ -16,13 +16,14 @@ import menujs from "./js/mmenu-light.js";
 import menujspoly from "./js/mmenu-light.polyfills.js"
 
 window.addEventListener('DOMContentLoaded', () => {
+    const currentLocation = window.location.pathname;
     const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 3000);
     
     modal('[data-modal]', '.modal', modalTimerId);
     forms(modalTimerId);
 
     // Home page scripts only
-    if (window.location.pathname === '/') {
+    if (currentLocation === '/' || currentLocation === '/index.html') {
         tabs();
         timer();
         calc();
@@ -32,3 +33,4 @@ window.addEventListener('DOMContentLoaded', () => {
     }
             
 });
+
