@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     forms(modalTimerId);
 
     // Home page scripts only
-    if (window.location.pathname === '/') {
+    if (isHomePage()) {
         tabs();
         timer();
         calc();
@@ -32,3 +32,8 @@ window.addEventListener('DOMContentLoaded', () => {
     }
             
 });
+
+function isHomePage() {
+    const currentLocation = window.location.pathname;
+    return currentLocation === '/' || currentLocation === '/index.html'
+}
