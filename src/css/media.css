@@ -88,6 +88,10 @@
         font-size: 32px;
     }
 
+    .active_links .container {
+        flex-direction: column;
+    }
+
     .tabcontainer {
         flex-direction: column-reverse;
     }
@@ -407,11 +411,7 @@
         height: 170px;
     }
 }
-    @media (max-width: 375px) {
-
-        .active_links .container {
-            flex-direction: column;
-        }
+    @media (max-width: 376px) {
 
         .active_links .container a {
             margin-bottom: 10px;
