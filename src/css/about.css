@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+.about_head {
+    padding-top: 30px;
+    background-color: #EEF0F4;
+}
+
 .site .offers {
     padding-top: 60px;
     margin-bottom: 60px;
-    background-color: #eeeeee;
+    background-color: #EEF0F4;
     padding-bottom: 60px;
 }
 
@@ -97,7 +102,7 @@
     display: inline-block;
     width: 30px;
     height: 2px;
-    background-color: #fb565a;
+    background-color: midnightblue;
     margin-right: 15px;
     margin-bottom: 4px;
 }

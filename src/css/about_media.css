@@ -1,0 +1,64 @@
+@media (max-width: 1024px) {
+
+    .header__right-block .button {
+        display: none;
+    }
+
+    .site .offers .container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+    }
+
+    .site .offers .container .item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .site .about_us .container {
+        flex-wrap: wrap;
+    }
+
+    .site .about_us .container .info {
+        margin-bottom: 30px;
+    }
+
+    .site .offers {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .site .about_us .container {
+        padding-bottom: 0;
+    }
+
+    .site .about_us .container .statistics img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .site .about_us .container .info {
+        width: 100%;
+    }
+
+    .site .about_us .container .statistics .stat {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .site .about_us .container .statistics .stat .item {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .site .offers .container {
+        width: 100% !important;
+    }
+}
+
+
