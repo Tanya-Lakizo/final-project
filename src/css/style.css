@@ -86,7 +86,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 450px;
+    min-width: 350px;
 }
 
 .header .header__right-block .header__links ul {

@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+
+    .site .our_work .our_work_1,
+    .site .our_work .our_work_bloks .our_work_1:nth-child(2n) {
+        flex-direction: column;
+    }
+
+    .site .our_work .our_work_bloks .our_work_1 .information:nth-child(2n) {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 475px) {
+
+    .our_work_img img {
+        width: 100%;
+    }
+
+    .backg_content {
+        margin-bottom: 0;
+    }
+
+    .backg_content .backg_text p {
+        font-size: 40px;
+    }
+}

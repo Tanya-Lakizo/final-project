@@ -39,11 +39,7 @@ module.exports = {
             template: path.resolve(__dirname, './src/pages/workouts.html'), // шаблон
             filename: 'pages/workouts.html', // название выходного файла
         }),
-        new HtmlWebpackPlugin({
-            title: 'Shop',
-            template: path.resolve(__dirname, './src/pages/shop.html'), // шаблон
-            filename: 'pages/shop.html', // название выходного файла
-        }),
+        
         /**
          * All files inside webpack's output.path directory will be removed once, but the
          * directory itself will not be. If using webpack 4+'s default configuration,
