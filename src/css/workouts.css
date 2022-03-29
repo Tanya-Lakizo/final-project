@@ -1,0 +1,109 @@
+.site .our_work {
+    padding-top: 30px;
+    background-color: midnightblue;
+    padding-bottom: 50px;
+}
+
+.site .our_work h3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.site .our_work .our_work_bloks .our_work_1:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.site .our_work .our_work_bloks .our_work_1 .information:nth-child(2n) {
+    margin-right: 30px;
+}
+
+.site .our_work .our_work_1 {
+    display: flex;
+    margin-top: 70px;
+}
+
+.site .our_work .our_work_1 .information {
+    margin-left: 30px;
+    color: white;
+}
+
+.site .our_work .our_work_1 .information h4 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.site .our_work .our_work_1 .information h5 {
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.site .our_work .our_work_1 .information p {
+    font-size: 18px;
+}
+
+.site .our_work .our_work_button button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(45deg, #DD3592, #8C32F0);
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.backg_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.backg_content .backg_text {
+    /* width: 50%; */
+}
+
+.backg_content .backg_text .pink {
+    color: #E73587;
+}
+
+.backg_content .backg_text h3 {
+    color: #020E35; 
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.backg_content .backg_text p {
+    color: #020E35; 
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.footer .foter_button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px 40px;
+    color: white;
+    background: linear-gradient(45deg, #DD3592, #8C32F0);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.order .container {
+    border: none;
+}
