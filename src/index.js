@@ -11,6 +11,7 @@ import { openModal } from './js/modules/modal.js';
 import css from "./css/style.css";
 import media from "./css/media.css";
 import menu from "./css/mmenu-light.css";
+import styles from "./css/about.css";
 
 import menujs from "./js/mmenu-light.js";
 import menujspoly from "./js/mmenu-light.polyfills.js"

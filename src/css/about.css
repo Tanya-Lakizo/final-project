@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site .offers {
+    padding-top: 60px;
+    margin-bottom: 60px;
+    background-color: #eeeeee;
+    padding-bottom: 60px;
+}
+
+.site .offers .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site .offers .container .item {
+    width: 300px;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.site .offers .container .item:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.site .offers .container .item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.site .offers .container .item p {
+    color: #0f0f0f;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.site .offers .container .item button {
+    padding: 15px 55px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: midnightblue;
+    border: 1px solid midnightblue;
+}
+
+.site .offers .container .item button:hover {
+    color: #0f0f0f;
+    background-color: transparent;
+    border: 0.1px solid #0f0f0f;
+}
+
+.site .about_us .container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+}
+
+.site .about_us .container .info {
+    width: 50%;
+}
+
+.site .about_us .container .info h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.site .about_us .container .info p {
+    margin-bottom: 40px;
+    line-height: 1.5em;
+}
+
+.site .about_us .container .info h3 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.site .about_us .container .info li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.site .about_us .container .info li::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: #fb565a;
+    margin-right: 15px;
+    margin-bottom: 4px;
+}
+
+.site .about_us .container .statistics p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.site .about_us .container .statistics .stat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site .about_us .container .statistics .stat .item {
+    width: 140px;
+}
+
+.site .about_us .container .statistics .stat .item span {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+
+.site .about_us .container .statistics .stat .item span::after {
+    content: '%';
+    font-size: 22px;
+    position: absolute;
+    bottom: 18px;
+}
+
+.site .about_us .container .statistics .stat h4 {
+    font-weight: normal;
+    margin-top: 15px;
+}
